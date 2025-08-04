@@ -10,7 +10,7 @@ export default function AIExperiencePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <Link href="/" className="handwritten-bold text-xl text-white hover:text-yellow-300 transition-colors">
-              ← 返回首页
+              &larr; 返回首页
             </Link>
             <div className="handwritten-bold text-xl text-white">
               AI产品体验
@@ -40,7 +40,7 @@ export default function AIExperiencePage() {
           <div className="mb-8">
             <h3 className="text-2xl font-bold text-gray-800 mb-4 flex items-center">
               <span className="text-yellow-500 mr-2">💡</span>
-              What's the 'Aha' Moment?
+              What&apos;s the &apos;Aha&apos; Moment?
             </h3>
             <div className="bg-gradient-to-r from-yellow-50 to-pink-50 p-6 rounded-lg border-l-4 border-yellow-400">
               <h4 className="font-bold text-gray-800 mb-3">用感性包裹冰冷的技术派提示词：</h4>
@@ -99,7 +99,7 @@ export default function AIExperiencePage() {
           <div className="mb-8">
             <h3 className="text-2xl font-bold text-gray-800 mb-4 flex items-center">
               <span className="text-yellow-500 mr-2">💡</span>
-              What's the 'Aha' Moment?
+              What&apos;s the &apos;Aha&apos; Moment?
             </h3>
             <div className="bg-gradient-to-r from-yellow-50 to-pink-50 p-6 rounded-lg border-l-4 border-yellow-400">
               <h4 className="font-bold text-gray-800 mb-3">零代码用户尝试成本低，体验好：</h4>
@@ -110,7 +110,7 @@ export default function AIExperiencePage() {
                 面对处理音频、文档、图片等多源信息的初始构想，我几乎无需编写代码，仅通过平台直观的拖拽与节点配置，便成功将这个想法构建为一个能够自动分类并处理信息的应用原型 。
               </p>
               <p className="text-gray-700 leading-relaxed">
-                其中最关键的突破点是平台的"知识库"功能 。直接上传本地的私有数据，让 Agent 掌握特定领域的背景知识，从而能基于这些内容，给出高度精准和专业的回答 。透过这种方式，将原本门槛较高的 AI 技术RAG（检索增强生成）变得"开箱即用"，embeding，rerank等模型概念也会慢慢深入用户心中。使用Dify， 用户会获得意想不到的收获。配合其完善的官方文档和社区生态 ，极大地降低了新用户的学习与实践成本，让非技术人员也能聚焦于业务逻辑，快速构建出满足个性化需求的Agent与工作流 。
+                其中最关键的突破点是平台的&quot;知识库&quot;功能 。直接上传本地的私有数据，让 Agent 掌握特定领域的背景知识，从而能基于这些内容，给出高度精准和专业的回答 。透过这种方式，将原本门槛较高的 AI 技术RAG（检索增强生成）变得&quot;开箱即用&quot;，embeding，rerank等模型概念也会慢慢深入用户心中。使用Dify， 用户会获得意想不到的收获。配合其完善的官方文档和社区生态 ，极大地降低了新用户的学习与实践成本，让非技术人员也能聚焦于业务逻辑，快速构建出满足个性化需求的Agent与工作流 。
               </p>
             </div>
           </div>
@@ -169,4 +169,4 @@ export default function AIExperiencePage() {
       </div>
     </div>
   );
-} 
+}
