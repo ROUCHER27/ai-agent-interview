@@ -40,7 +40,7 @@ export default function AIExperiencePage() {
           <div className="mb-8">
             <h3 className="text-2xl font-bold text-gray-800 mb-4 flex items-center">
               <span className="text-yellow-500 mr-2">💡</span>
-              What's the 'Aha' Moment?
+              What&apos;s the &apos;Aha&apos; Moment?
             </h3>
             <div className="bg-gradient-to-r from-yellow-50 to-pink-50 p-6 rounded-lg border-l-4 border-yellow-400">
               <h4 className="font-bold text-gray-800 mb-3">用感性包裹冰冷的技术派提示词：</h4>
